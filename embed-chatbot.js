@@ -51,7 +51,7 @@
   document.body.appendChild(container);
 
   if (assistantName && assistantId) {
-      document.getElementById("chatbot-iframe").src = `https://ecommerce.buildyourai.consulting/assistants/${assistantName}/${assistantId}`;
+      document.getElementById("chatbot-iframe").src = `https://ecommerce.buildyourai.consulting/agents/${assistantId}`;
   } else {
       console.error("Assistant name or ID not provided.");
   }
