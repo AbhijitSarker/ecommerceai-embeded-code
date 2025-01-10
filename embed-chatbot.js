@@ -12,7 +12,7 @@
   container.innerHTML = `
       <div id="assistant-embed-container">
         <div id="chatbot-icon" style="position:fixed;bottom:40px;right:50px;width:120px;height:120px;display:flex;align-items:center;justify-content:center;cursor:pointer;animation:bounce 2s infinite;z-index:9999;">
-          <img src="https://github.com/afshansji/embeded-chatbot/blob/main/Bot%201.png?raw=true" alt="Chatbot" style="width:150px;height:120px;object-fit:contain;" />
+          <img src="https://github.com/abhijitsarker/ecommerceai-embeded-code/blob/main/Bot%201.png?raw=true" alt="Chatbot" style="width:150px;height:120px;object-fit:contain;" />
         </div>
         <div id="assistant-embed" style="position:fixed;bottom:20px;right:20px;width:510px;height:580px;border:1px solid #ccc;border-radius:10px;display:none;z-index:9999;">
           <div style="display:flex;justify-content:space-between;align-items:center;padding:10px;background: linear-gradient(90deg, #1969E9 0%, #05B8FB 100%);border-top-left-radius:10px;border-top-right-radius:10px;">
@@ -51,7 +51,7 @@
   document.body.appendChild(container);
 
   if (assistantName && assistantId) {
-      document.getElementById("chatbot-iframe").src = `https://tutorgpt.managedcoder.com/assistants/${assistantName}/${assistantId}`;
+      document.getElementById("chatbot-iframe").src = `https://ecommerce.buildyourai.consulting/assistants/${assistantName}/${assistantId}`;
   } else {
       console.error("Assistant name or ID not provided.");
   }
